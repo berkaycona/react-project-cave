@@ -2,19 +2,26 @@
     {
         "id":1,
         "image":"https://webgradients.com/public/webgradients_png/008%20Rainy%20Ashville.png",
-        "title":"1",
-        "Description": "This is the first."
+        "title":"Lorem Ipsum",
+        "Artist": "Simply Dummy Text",
+        "Snippet1": "It is a long, established fact that",
+        "Snippet2": "A reader will be distracted by the readable content"
     },
     {
         "id":2,
         "image":"https://webgradients.com/public/webgradients_png/003%20Spring%20Warmth.png",
         "title":"2",
-        "Description": "This is the second."
+        "Artist": "This is the second.",
+         "Snippet1": "Leap into electronic typesetting",
+         "Snippet2": "Going through the cites of the word in classical literature,"
     },
     {
         "id":3,
         "image":"https://storage.needpix.com/rsynced_images/gradient-background-9.jpg",
         "title":"3",
-        "Description": "This is the third."
+        "Artist": "This is the third.",
+         "Snippet1": "The standard chunk of Lorem Ipsum",
+         "Snippet2": "Used since the 1500s is reproduced below for those interested."
+         
     }
 ]

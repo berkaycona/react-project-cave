@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import Data from "./data.json";
+import yt from "./icons/youtubeLogo.png";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -18,14 +19,23 @@ function App() {
       <div className="dataContainer">
         {Data.filter((val) => {
           if (searchTerm == "") return val;
-          else if (val.title.toLowerCase().includes(searchTerm.toLowerCase()))
+          //IT SEARCHES BY NAME AND ARTIST
+          else if (
+            val.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            val.Artist.toLowerCase().includes(searchTerm.toLowerCase())
+          )
             return val;
         }).map((val) => {
           return (
             <div className="data" key={val.id}>
               <img src={val.image} alt="" />
               <h3>{val.title}</h3>
-              <p>{val.Description}</p>
+              <h5>{val.Artist}</h5>
+              <h6>{val.Snippet1}</h6>
+              <h6>{val.Snippet2}</h6>
+              {/* Youtube Logo Start*/}
+              <img id="ytlogo" src={yt} alt="" />
+              {/* Youtube Logo End*/}
             </div>
           );
         })}
