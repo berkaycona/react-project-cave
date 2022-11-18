@@ -34,7 +34,10 @@ function App() {
               <h6>{val.Snippet1}</h6>
               <h6>{val.Snippet2}</h6>
               {/* Youtube Logo Start*/}
-              <img id="ytlogo" src={yt} alt="" />
+              <a href={val.Link}>
+                <img id="ytlogo" src={yt} alt="" />
+              </a>
+
               {/* Youtube Logo End*/}
             </div>
           );
