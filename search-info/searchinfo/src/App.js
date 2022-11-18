@@ -37,7 +37,6 @@ function App() {
               <a href={val.Link}>
                 <img id="ytlogo" src={yt} alt="" />
               </a>
-
               {/* Youtube Logo End*/}
             </div>
           );
