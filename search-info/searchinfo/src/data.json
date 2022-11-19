@@ -6,7 +6,7 @@
         "Artist": "Simply Dummy Text",
         "Snippet1": "It is a long, established fact that",
         "Snippet2": "A reader will be distracted by the readable content",
-        "Link": "https://www.youtube.com/watch?v=J6G0EuPAoKQ"
+        "myLink": "https://www.youtube.com/watch?v=J6G0EuPAoKQ"
     },
     {
         "id":2,
@@ -15,7 +15,7 @@
         "Artist": "This is the second.",
          "Snippet1": "Leap into electronic typesetting",
          "Snippet2": "Going through the cites of the word in classical literature",
-         "Link":"https://www.youtube.com/watch?v=ZD47Mhzm-CU"
+         "myLink":"https://www.youtube.com/watch?v=ZD47Mhzm-CU"
     },
     {
         "id":3,
@@ -24,7 +24,7 @@
         "Artist": "This is the third.",
          "Snippet1": "The standard chunk of Lorem Ipsum",
          "Snippet2": "Used since the 1500s is reproduced below for those interested.",
-         "Link":"https://www.youtube.com/watch?v=ZD47Mhzm-CU"
+         "myLink":"https://www.youtube.com/watch?v=ZD47Mhzm-CU"
          
     }
 ]

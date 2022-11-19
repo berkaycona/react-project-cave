@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import Data from "../data.json";
 import yt from "../icons/youtubeLogo.png";
+import meineitem from "../icons/meineitem.png";
 import { Link } from "react-router-dom";
 
-function Home() {
+function Home({ title, Artist, Snippet1, Snippet2, myLink }) {
   const [searchTerm, setSearchTerm] = useState("");
   return (
     <div className="container">
@@ -33,11 +34,19 @@ function Home() {
               <h5>{val.Artist}</h5>
               <h6>{val.Snippet1}</h6>
               <h6>{val.Snippet2}</h6>
-              {/* Youtube Logo Start*/}
-              <a href={val.Link}>
-                <img id="ytlogo" src={yt} alt="" />
-              </a>
-              {/* Youtube Logo End*/}
+              <div>
+                {/* Youtube Logo Start*/}
+                <a href={val.myLink}>
+                  <img id="ytlogo" src={yt} alt="" />
+                </a>
+                {/* Youtube Logo End*/}
+
+                {/* Single Page Start*/}
+                <Link to={"/myitem/${val.id}"}>
+                  <img id="ytlogo" src={meineitem} alt="" />
+                </Link>
+                {/* Single Page End*/}
+              </div>
             </div>
           );
         })}

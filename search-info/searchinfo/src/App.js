@@ -11,6 +11,7 @@ import "./App.css";
 
 import Home from "./pages/Home";
 import Error from "./pages/Error";
+import { SinglePage } from "./pages/SinglePage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           {/* Navigate to line'ına gerek olmayadabilir sanırım */}
           <Route path="/Home" element={<Navigate to="/Home" />} />
           <Route path="/" element={<Home />} />
+          <Route path="/myitem/:id" element={<SinglePage />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </div>

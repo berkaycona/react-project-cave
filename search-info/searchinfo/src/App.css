@@ -92,7 +92,9 @@ h6{
 }
 /* youtube logo Start */
 #ytlogo{
+  padding: 2%;
   margin-top: 5%;
+  
   width: 30px;
   height: 30px;
 }
@@ -110,3 +112,5 @@ h6{
   
   transform: scale(1.01);
 }
+
+
