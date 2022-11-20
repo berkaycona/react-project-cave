@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Data from "../data.json";
 import yt from "../icons/youtubeLogo.png";
-import meineitem from "../icons/meineitem.png";
+import detailspagelogo from "../icons/meineitem.png";
 import { Link } from "react-router-dom";
 
 function Home({ title, Artist, Snippet1, Snippet2, myLink }) {
@@ -27,6 +27,7 @@ function Home({ title, Artist, Snippet1, Snippet2, myLink }) {
           )
             return val;
         }).map((val) => {
+          var v = val.id;
           return (
             <div className="data" key={val.id}>
               <img src={val.image} alt="" />
@@ -42,8 +43,8 @@ function Home({ title, Artist, Snippet1, Snippet2, myLink }) {
                 {/* Youtube Logo End*/}
 
                 {/* Single Page Start*/}
-                <Link to={"/myitem/${val.id}"}>
-                  <img id="ytlogo" src={meineitem} alt="" />
+                <Link to={`/myitem/${v}`}>
+                  <img id="ytlogo" src={detailspagelogo} alt="" />
                 </Link>
                 {/* Single Page End*/}
               </div>
