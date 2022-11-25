@@ -18,7 +18,7 @@ function Home({ title, Artist, Snippet1, Snippet2, myLink }) {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
-      <div className="dataContainer">
+      <div className="dataContainer2">
         {Data.filter((val) => {
           if (searchTerm == "") return val;
           //IT SEARCHES BY NAME AND ARTIST
@@ -30,8 +30,8 @@ function Home({ title, Artist, Snippet1, Snippet2, myLink }) {
         }).map((val) => {
           var v = val.id;
           return (
-            <div className="data" key={val.id}>
-              <img src={val.image} alt="" />
+            <div className="data2" key={val.id}>
+              <img className="insideDataImage" src={val.image} alt="" />
               <h3>{val.title}</h3>
               <h5>{val.Artist}</h5>
               <h6>{val.Snippet1}</h6>

@@ -302,7 +302,7 @@ h6{
   
 }
 
-.dataContainer {
+.dataContainer2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -310,7 +310,7 @@ h6{
 
 }
 
-.data {
+.data2 {
   width: 400px;
   height: 400px;
   display: flex;
@@ -326,6 +326,17 @@ h6{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: .3s;
 }
+
+/* same picture size start */
+.insideDataImage{
+  float: left;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+/* same picture size start */
+
+
 /* youtube logo Start */
 #ytlogo{
   padding: 2%;

@@ -49,7 +49,7 @@ const SinglePage = () => {
           <span>Comments</span>
         </span>
         <span className={"text06"}>
-          <span>Dolu Kadehi Ters Tut</span>
+          <span>{myyitem.Artist}</span>
         </span>
         <span className={"text08"}>
           <span>Yapma N’olursun</span>
@@ -70,7 +70,7 @@ const SinglePage = () => {
           className={"ellipse3"}
         />
         <span className={"text10"}>
-          <span>2020</span>
+          <span> &nbsp;2020</span>
         </span>
         <span className={"text12"}>
           <span>173K</span>
