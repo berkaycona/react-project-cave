@@ -1,14 +1,8 @@
 /* teleporthq */
-.container {
-  width: 100%;
-  display: flex;
-  overflow: auto;
-  min-height: 100vh;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
 
+.container3{
+  margin-left: 12%;
+}
 .desktop1 {
   width: 100%;
   height: 1024px;
@@ -254,7 +248,7 @@ img {
   border-radius: 10px;
 }
 
-.container {
+.container2 {
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -288,7 +282,7 @@ input::placeholder {
 }
 
 input:focus {
-  outline: none;
+  outline: none;  
 }
 
 h3 {

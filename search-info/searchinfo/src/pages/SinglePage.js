@@ -17,7 +17,7 @@ const SinglePage = () => {
     //   <h6>{myyitem.Snippet1}</h6>
     //   <h6>{myyitem.Snippet2}</h6> */}
     // </div>
-    <div className={"container"}>
+    <div className={"container3"}>
       <div className={"desktop1"}>
         <img
           src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/ddfb93e5-cbbc-49b3-8407-b59c94ca35a5/acd569c2-f214-4fc8-be6d-bdd94817ca62?org_if_sml=114516"

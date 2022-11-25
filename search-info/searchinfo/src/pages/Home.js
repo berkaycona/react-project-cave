@@ -7,9 +7,10 @@ import { Link } from "react-router-dom";
 function Home({ title, Artist, Snippet1, Snippet2, myLink }) {
   const [searchTerm, setSearchTerm] = useState("");
   return (
-    <div className="container">
+    <div className="container2 ">
       <h1>Information</h1>
-      <div className="inputContainer">
+      {/* bootstrap'te olan bir ayar yüzünden 2 olarak değiştirdim bunu */}
+      <div className="inputContainer2">
         <input
           className="search"
           type="text"
