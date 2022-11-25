@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import {
   BrowserRouter as Router,
@@ -7,11 +8,11 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import "./App.css";
-
 import Home from "./pages/Home";
 import Error from "./pages/Error";
 import SinglePage from "./pages/SinglePage";
+
+import "./App.css";
 
 function App() {
   return (

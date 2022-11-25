@@ -1,3 +1,245 @@
+/* teleporthq */
+.container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.desktop1 {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.rectangle1 {
+  top: 179px;
+  left: 104px;
+  width: 419px;
+  height: 681px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+
+.rectangle4 {
+  top: 179px;
+  left: 1173px;
+  width: 183px;
+  height: 681px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+
+.rectangle2 {
+  top: 314px;
+  left: 602px;
+  width: 473px;
+  height: 255px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+
+.rectangle3 {
+  top: 605px;
+  left: 607px;
+  width: 473px;
+  height: 255px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+
+.text {
+  top: 229px;
+  left: 133px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.text02 {
+  top: 340px;
+  left: 639px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.text04 {
+  top: 639px;
+  left: 639px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.text06 {
+  top: 270px;
+  left: 616px;
+  color: rgba(126, 125, 125, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.text08 {
+  top: 212px;
+  left: 607px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.ellipse1 {
+  top: 212px;
+  left: 1189px;
+  width: 154px;
+  height: 154px;
+  position: absolute;
+  border-color: transparent;
+}
+
+.ellipse2 {
+  top: 443px;
+  left: 1189px;
+  width: 154px;
+  height: 154px;
+  position: absolute;
+  border-color: transparent;
+}
+
+.ellipse3 {
+  top: 674px;
+  left: 1189px;
+  width: 154px;
+  height: 154px;
+  position: absolute;
+  border-color: transparent;
+}
+
+.text10 {
+  top: 260px;
+  left: 1202px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.text12 {
+  top: 491px;
+  left: 1208px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.youtube-logo1 {
+  top: 693px;
+  left: 1208px;
+  width: 116px;
+  height: 116px;
+  position: absolute;
+  border-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
 
 * {
@@ -112,5 +354,9 @@ h6{
   
   transform: scale(1.01);
 }
+
+
+
+
 
 
