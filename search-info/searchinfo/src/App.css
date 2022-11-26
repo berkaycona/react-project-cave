@@ -1,7 +1,7 @@
 /* teleporthq */
 
 .container3{
-  margin-left: 12%;
+  margin-left: 10%;
 }
 .desktop1 {
   width: 100%;
@@ -292,14 +292,25 @@ h3 {
 }
 
 h5 {
-  margin: 10px 0;
+  margin-top: 1px ;
   font-family: 'Antic Slab', serif;
   color:#EAEAEA
 }
 h6{
   font-family: 'Antic Slab', serif;
-  color:#a9a8a8
+  color:#cdcdcd;
+  white-space:pre;
+  font-size:x-small
   
+}
+.singlePageLyricH6{
+  margin-top: 2%;
+  font-family: 'Antic Slab', serif;
+    color: #5f5f5f;
+    white-space: pre;
+      font-size:medium;
+      overflow-y:scroll;
+      height: 560px;
 }
 
 .dataContainer2 {

@@ -2,19 +2,18 @@
     {
         "id":1,
         "image":"https://webgradients.com/public/webgradients_png/008%20Rainy%20Ashville.png",
-        "title":"Lorem Ipsum",
-        "Artist": "Simply Dummy Text",
-        "Snippet1": "It is a long, established fact that",
-        "Snippet2": "A reader will be distracted by the readable content",
-        "myLink": "https://www.youtube.com/watch?v=J6G0EuPAoKQ"
+        "title":"Yapma N'olursun",
+        "Artist": "Dolu Kadehi Ters Tut",
+        "Snippet1": "Yapma n'olursun, bırak o yerimi doldursun\nBana ihtiyacın olursa sarıl ona, elbet unutursun",
+        "myLink": "https://www.youtube.com/watch?v=J6G0EuPAoKQ",
+        "myLyrics":"Ananas gibi, ahududu gibi \nAma daha çok avokado gibi tabii\nBunu ben bilirim, bir de benim gibileri\nİnan ki, inan ki\n\nDenedin bizi, ruhumun ikizi\nSandım aynı parmaklarımızın izi\nSeni gördüğümde vurdu bi' kalp krizi\nİnan ki, inan ki\n\nYaramaz kedi, yok ki tabii dili\nNası' söyler ki sana olanı biteni?\nYokluğunda kaldım ben bi' kemik, bi' deri\nİnan ki, inan ki\n\nZor, çok zor\n\nYapma n'olursun, bırak o yerimi doldursun\nBana ihtiyacın olursa sarıl ona, elbet unutursun\nYapma n'olursun, bırak o yerimi doldursun\nBana ihtiyacın olursa sarıl ona, elbet unutursun\n\nDediler, Seni sordu yine biri\nKalbi masmavi denizler gibi\nBunu duyduğumda ben öldüm bi' nevi\nİnan ki, inan ki\n\nSıcacık teni, kıvrımlı beli\nNasıl unuturum ki boynundaki o beni?\nBunlar yine başımı döndürmemeli\nZor ki, inan ki\n\nDönemem geri, olmalıyım deli\nGirmişse kalbine bambaşka biri\nHatırımda gittiğin gün dün gibi\nİnan ki, inan ki\n\nZor, çok zor\n\nYapma n'olursun, bırak o yerimi doldursun\nBana ihtiyacın olursa sarıl ona, elbet unutursun\nYapma n'olursun, bırak o yerimi doldursun\nBana ihtiyacın olursa sarıl ona, elbet unutursun\nYapma n'olursun, bırak o yerimi doldursun\nBana ihtiyacın olursa sarıl ona, elbet unutursun\n\nYapma n'olursun, bırak o yerimi doldursun\nBana ihtiyacın olursa sarıl ona, elbet unutursun"
     },
     {
         "id":2,
         "image":"https://webgradients.com/public/webgradients_png/003%20Spring%20Warmth.png",
         "title":"2",
         "Artist": "This is the second.",
-         "Snippet1": "Leap into electronic typesetting",
-         "Snippet2": "Going through the cites of the word in classical literature",
+         "Snippet1": "Leap into electronic typesetting\nGoing through the cites of the word in classical literature",
          "myLink":"https://www.youtube.com/watch?v=ZD47Mhzm-CU"
     },
     {
@@ -22,8 +21,7 @@
         "image":"https://storage.needpix.com/rsynced_images/gradient-background-9.jpg",
         "title":"3",
         "Artist": "This is the third.",
-         "Snippet1": "The standard chunk of Lorem Ipsum",
-         "Snippet2": "Used since the 1500s is reproduced below for those interested.",
+         "Snippet1": "The standard chunk of Lorem Ipsum\nUsed since the 1500s is reproduced below for those interested.",
          "myLink":"https://www.youtube.com/watch?v=ZD47Mhzm-CU"
          
     }

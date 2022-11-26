@@ -35,7 +35,7 @@ function Home({ title, Artist, Snippet1, Snippet2, myLink }) {
               <h3>{val.title}</h3>
               <h5>{val.Artist}</h5>
               <h6>{val.Snippet1}</h6>
-              <h6>{val.Snippet2}</h6>
+
               <div>
                 {/* Youtube Logo Start*/}
                 <a href={val.myLink}>

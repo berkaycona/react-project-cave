@@ -41,6 +41,7 @@ const SinglePage = () => {
         />
         <span className={"text"}>
           <span>Lyrics</span>
+          <h6 className="singlePageLyricH6">{myyitem.myLyrics}</h6>
         </span>
         <span className={"text02"}>
           <span>Inside Scope</span>
@@ -52,7 +53,7 @@ const SinglePage = () => {
           <span>{myyitem.Artist}</span>
         </span>
         <span className={"text08"}>
-          <span>Yapma N’olursun</span>
+          <span>{myyitem.title}</span>
         </span>
         <img
           src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/ddfb93e5-cbbc-49b3-8407-b59c94ca35a5/42ac5f78-fbb5-4cd8-9459-03b9a23a0791?org_if_sml=12193"
@@ -75,11 +76,13 @@ const SinglePage = () => {
         <span className={"text12"}>
           <span>173K</span>
         </span>
-        <img
-          src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/ddfb93e5-cbbc-49b3-8407-b59c94ca35a5/6324ef37-40f9-4dcf-8681-7d7faf635eb0?org_if_sml=13814"
-          alt="youtubeLogo1217"
-          className={"youtube-logo1"}
-        />
+        <a href={myyitem.myLink}>
+          <img
+            src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/ddfb93e5-cbbc-49b3-8407-b59c94ca35a5/6324ef37-40f9-4dcf-8681-7d7faf635eb0?org_if_sml=13814"
+            alt="youtubeLogo1217"
+            className={"youtube-logo1"}
+          />
+        </a>
       </div>
     </div>
   );
